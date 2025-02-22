@@ -6,3 +6,4 @@ QString MyLibrary::sayHello()
 {
     return "Hello from the DLL!";
 }
+
