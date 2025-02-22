@@ -6,9 +6,12 @@ Utilise CMakeLists.txt
 
 
 Dans explorateur de solution -> click droit sur mylibrary -> propriétés  
+Régler les menus suivants :  
 - propriétés de configuration   
+    - Général
+    	- Type de configuration : ***Bibliothèque dynamique .dll***
+		- Ensemble d'outils de plateforme : ***Visual Studio 2019 (v142)***
 	- C/C++
-		- Entete précompilé
-			- Sans utiliser les en-têtes précompilés  **ne pas utiliser les entetes précompilés**   
-			- frfrf frfrfrf
+		- Entête précompilé : ***Sans utiliser les entêtes précompilés*** => ne pas utiliser les entêtes précompilés   
+		-  
 
