@@ -3,13 +3,21 @@ Essai de compiler une librairie .dll pour QT 5.15.2
 Utilise CMakeLists.txt  
 
 # Configuration Visual Studio 2022   
-Dans explorateur de solution -> click droit sur mylibrary -> propriétés  
-Régler les menus suivants :  
-- propriétés de configuration   
-    - Général
-    	- Type de configuration : ***Bibliothèque dynamique .dll***
+
+## Qt extension 
+Add Qt extension in Visual Studio  
+And add Qt repertory in extension : Menu : Extensions -> Qt VS Tools -> Options :    
+	- Path to Qt/MsBuild files : ***C:\Users\bubu\AppData\Local\QtMsBuild***  
+
+## RÃ©glage de la solution
+Toutes les rÃ©galges suivants correspondent au projet en cours et seront stockÃ©s dans le rÃ©pertoire **.vs** de votre projet   
+Dans explorateur de solution -> click droit sur mylibrary -> propriÃ©tÃ©s  
+RÃ©gler les menus suivants :  
+- propriÃ©tÃ©s de configuration   
+    - GÃ©nÃ©ral
+    	- Type de configuration : ***BibliothÃ¨que dynamique .dll***
 		- Ensemble d'outils de plateforme : ***Visual Studio 2019 (v142)*** => QT5 n'est compatible que de VS 2019
 	- C/C++
-		- Entête précompilé : ***Sans utiliser les entêtes précompilés*** => ne pas utiliser les entêtes précompilés   
+		- EntÃªte prÃ©compilÃ© : ***Sans utiliser les entÃªtes prÃ©compilÃ©s*** => ne pas utiliser les entÃªtes prÃ©compilÃ©s   
 		-  
 
