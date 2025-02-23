@@ -6,8 +6,9 @@ Utilise CMakeLists.txt
 
 ## Qt extension 
 Add Qt extension in Visual Studio  
-And add Qt repertory in extension : Menu : Extensions -> Qt VS Tools -> Options :    
-	- Path to Qt/MsBuild files : ***C:\Users\bubu\AppData\Local\QtMsBuild***  
+And add Qt repertory in extension : Menu : Extensions -> Qt VS Tools -> Options 
+- Path to Qt/MsBuild files : ***C:\Users\bubu\AppData\Local\QtMsBuild***
+- 
 
 ## Réglage de la solution
 Toutes les régalges suivants correspondent au projet en cours et seront stockés dans le répertoire **.vs** de votre projet   
