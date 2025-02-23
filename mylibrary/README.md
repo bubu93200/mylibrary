@@ -22,3 +22,5 @@ Régler les menus suivants :
 		- Entête précompilé : ***Sans utiliser les entêtes précompilés*** => ne pas utiliser les entêtes précompilés   
 		-  
 
+# CMake   
+
