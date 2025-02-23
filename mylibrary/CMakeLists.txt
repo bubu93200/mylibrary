@@ -13,6 +13,8 @@ project(MyLibrary)
 # permet d'accéder aux symboles de deboggage et création du fichier.pdb
 set(CMAKE_BUILD_TYPE Debug)
 
+
+
 # Trouver Qt
 find_package(Qt5 REQUIRED COMPONENTS Core Qml)
 
@@ -21,6 +23,9 @@ set(CMAKE_AUTOMOC ON)
 
 # Créer la DLL
 add_library(mylibrary SHARED mylibrary.cpp)
+
+# Inclure des répertoires d'en-têtes
+target_include_directories(mylibrary PUBLIC include)
 
 # Créer l'exécutable
 #add_executable(main main.cpp)

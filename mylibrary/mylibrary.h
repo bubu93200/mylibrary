@@ -1,7 +1,8 @@
 #ifndef MYLIBRARY_H
 #define MYLIBRARY_H
 
-#include <QObject>
+#include "QtCore/qobject.h"
+//#include <QObject>
 
 class MyLibrary : public QObject
 {
