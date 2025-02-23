@@ -11,7 +11,7 @@ And add Qt repertory in extension : Menu : Extensions -> Qt VS Tools -> Options
 - Qt -> Version -> name ***5.15.2_msvc2019_64*** path ***C:\Qt\5.15.2\msvc2019_64***   
 
 ## Réglage de la solution
-Toutes les régalges suivants correspondent au projet en cours et seront stockés dans le répertoire **.vs** de votre projet   
+Tous les réglages suivants correspondent au projet en cours et seront stockés dans le répertoire **.vs** de votre projet   
 Dans explorateur de solution -> click droit sur mylibrary -> propriétés  
 Régler les menus suivants :  
 - propriétés de configuration   
