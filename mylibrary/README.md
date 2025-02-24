@@ -12,7 +12,7 @@ And add Qt repertory in extension : Menu : Extensions -> Qt VS Tools -> Options
 
 
 ## Extension QML Syntax/Tools
-Installer l'extension QMl Syntax/Tools pour avoir la coloration syntaxique des programmes en QML  
+Installer l'extension QML Syntax/Tools pour avoir la coloration syntaxique des programmes en QML  
 
 ## Réglage de la solution
 Tous les réglages suivants correspondent au projet en cours et seront stockés dans le répertoire **.vs** de votre projet   
@@ -29,4 +29,6 @@ Régler les menus suivants :
 
 
 # CMake   
+
+
 
